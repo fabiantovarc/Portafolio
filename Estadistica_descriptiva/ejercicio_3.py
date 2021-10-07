@@ -6,8 +6,8 @@ en curso en un examen y devuelva una serie con la nota mínima, la máxima,
 media y la desviación típica.
 @author: fabian
 """
-def librerias():
-    import pandas as pd
+#def librerias():
+#   import pandas as pd
 
 def run():
 
@@ -29,3 +29,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+
