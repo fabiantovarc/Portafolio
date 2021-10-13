@@ -1,28 +1,13 @@
 """
-Escribir un programa que pida al usuario dos números y muestre por 
-pantalla su división. Si el divisor es cero el programa debe mostrar un error.
+Escribir un programa que pida al usuario un número entero y muestre por pantalla si es par o impar.
 """
-
 def run():
-
-    print("Se realizara una division, ingrese los dos siguientes cifras. ")
-
-
-
-    num_1 = int(input("Ingrese el primer numero: "))
-    #primera condicional
-    if num_1 == 0:
-        print("Ocurrio un error, no se puede dividir por 0")
+    num = int(input("Ingrese el numero: "))
+    result = num % 2 #El simbolo de % entrega el sobrante de la operacion
+    if result == 0 :
+        print("Es par ")
     else:
-        num_2 = int(input("Ingrese el segundo numero: "))
-        #segunda condicional
-        if num_2 == 0:
-            print("Ocurrio un error, no se puede dividir por 0")
-        else: 
-            print(num_1/num_2)
-    
-
-
+        print("Es impar: ")
 
 if __name__ == '__main__':
     run()
