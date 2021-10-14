@@ -41,8 +41,8 @@ def run():
         print("Esta puntuación no es válida")
 
     print("Tu nivel de rendimiento es " + nivel)
-    print("Te corresponde cobrar " + (puntuacion * bonificacion))
-    
+    # %.2f sirve para implementar el float en la impresion, sin el 
+    print("Te corresponde cobrar %.2f€" % (puntuacion * bonificacion))
 
             
 
