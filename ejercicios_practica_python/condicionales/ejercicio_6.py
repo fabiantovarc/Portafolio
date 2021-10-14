@@ -21,11 +21,5 @@ def run():
     print("tu grupo es "+ group)
 
 
-
-        
-
-
-
-
 if __name__ == '__main__':
     run()
