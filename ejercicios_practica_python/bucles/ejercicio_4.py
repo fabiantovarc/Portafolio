@@ -21,7 +21,7 @@ def run():
                 comprobar = True
                 
                 #print(i)
-                print("*"*(i+1))#lo que sucede aqui es que la "i" inicializa en 0, entonces e le suma 1 y se multiplica las veces
+                print("*"*(i+1))#lo que sucede aqui es que la "i" inicializa en 0, entonces le suma 1 y se multiplica las veces
                                 #que se repite el string
 
         else:

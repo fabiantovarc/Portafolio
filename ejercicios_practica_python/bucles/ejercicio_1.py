@@ -5,7 +5,6 @@ Escribir un programa que pregunte al usuario su edad y muestre por pantalla todo
 def run():
 
     edad = int(input("Ingrese su edad: "))
-
     for i in range(edad):
         print(f"Has cumplido {i+1} años")
    
