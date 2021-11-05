@@ -1,7 +1,4 @@
-""" aprender codigo
-    este es un aporte de un estudiante de platzi
-    .
-"""
+
 #Para cada elemento se define la estructura clave:valor:
 
 #Store the names of the users and the passwords
