@@ -16,11 +16,6 @@ así como la cantidad de dinero que recibirá el usuario.
 """
 def run():
     bonificacion = 2400
-    inaceptable = 0
-    aceptable = 0.4
-    meritorio = 0.6
-    prueba = "creo"
-
     print("""
         Nivel	      Puntuación
     Inaceptable	        0.0
@@ -30,11 +25,11 @@ def run():
     """)
     puntuacion = float(input("Ingrese la puntuacion obtenida: "))
 
-    if puntuacion == inaceptable:
+    if puntuacion == 0:
         nivel = "inaceptable"
-    elif puntuacion == aceptable:
+    elif puntuacion == 0.4:
         nivel = "aceptable"
-    elif puntuacion >= meritorio:
+    elif puntuacion >= 0.6:
         nivel = "meritorio"
     else:
         nivel = ""
@@ -42,8 +37,8 @@ def run():
 
     print("Tu nivel de rendimiento es " + nivel)
     # %.2f sirve para implementar el float en la impresion, sin el 
-    print("Te corresponde cobrar %.2f€" % (puntuacion * bonificacion))
-
+    #print("Te corresponde cobrar %.2f€" % (puntuacion * bonificacion))
+    print(f"Te corresponde cobrar {puntuacion * bonificacion}€")
             
 
 if __name__ == '__main__':

@@ -7,14 +7,15 @@ Escribir un programa que pida al usuario un número entero y muestre por pantall
 9 7 5 3 1
 """
 
+
 def run():
 
 
     num= int(input("Ingrese un numero entero positivo: "))
-    "range(inicio, fin, paso)"
-    for i in range(1, num+2, 2):
+    #range(inicio, fin, paso)
+    for i in range(1, num+1, 2):
         for j in range(i, 0, -2):
-            print(j, end=" ")
+            print(j, end=" ") #imprime el numero y el espacio
         print("")
                 
 

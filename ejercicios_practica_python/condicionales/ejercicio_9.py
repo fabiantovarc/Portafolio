@@ -16,10 +16,10 @@ def run():
         print("precio de la entrada es $0")
     elif edad >= 5 and edad <= 18:
         print("Los mayores de 4 años pagan su entrada ")
-        print("El precio de entrada es %.2f€" % precio)
+        print(f"El precio de entrada es {precio}€")
     else:
         print("Los mayores de 4 años pagan su entrada ")
-        print("El precio de entrada es %.2f€" % (precio * 2))
+        print(f"El precio de entrada es {precio* 2}€")
 
 
 if __name__ == '__main__':

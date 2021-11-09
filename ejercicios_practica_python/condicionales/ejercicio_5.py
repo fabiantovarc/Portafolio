@@ -12,17 +12,6 @@ def run():
         print("Cumples con los requisitos para tributar ")
     else:
         print("No puedes tributar ")
-"""
 
-    if age >= 18:
-        print("Cumples con la edad requerida para tributar")
-        if money >= 1000:
-            print("Tienes ingresos requerida para tributar")
-        else:
-            print("No tienes los ingresos necesarios para tributar")
-    else:
-        print("No cumples con la condicion de ser mayor de edad para tributar")
-
-"""
 if __name__ == '__main__':
     run()

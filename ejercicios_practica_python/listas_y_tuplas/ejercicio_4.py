@@ -51,8 +51,8 @@ while True:
         break
     else:
         print("Opcion no valida")
-
-#ejecutar el programa
+        continue
+    
 
 if __name__ == '__main__':
     my_list()
