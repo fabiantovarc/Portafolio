@@ -7,7 +7,6 @@ def run():
     list.reverse()
     for i in range(len(list)):
         print(list[i], end=', ')
-        print(list[i], end=', ')
     print()
 
 if __name__ == '__main__':
