@@ -1,6 +1,0 @@
-Bienvenidos, para este módulo se usara la aplicación deepnote en su prueba gratuita.
-Los siguientes ejercicios son realizadas en deepnote, utilizando un reporte de World Happiness, utilizando las distintas librerias
-que nos ayudara a plasmar la informacion en graficas.
-Este es el link directo de deepnote donde se realizaron los ejercicios.
-
-https://deepnote.com/project/Ejercicios-de-world-happines-y9X_KB3RQTSMwsFl1e_iow/%2Fpruena.ipynb/#00000-c768eea8-bce6-4907-b865-70b7febe9a71
