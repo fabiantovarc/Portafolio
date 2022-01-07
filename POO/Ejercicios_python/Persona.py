@@ -47,7 +47,7 @@ class Persona:
 
 if __name__ == '__main__':
     persona1 = Persona("juan", "Perez", 28)
-    persona1.nombre = 'Juan Carlos'
+    persona1.nombre = 'Pedro Gonzales'
     print(persona1.nombre)
 
     persona1.apellido = "Fernandez"

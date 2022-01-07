@@ -1,4 +1,4 @@
-class  Vehiculo:
+ class  Vehiculo:
     tipoVehiculo = str
     atributos    = str
     ruedas       = int

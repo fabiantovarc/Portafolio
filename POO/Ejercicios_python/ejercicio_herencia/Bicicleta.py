@@ -1,10 +1,5 @@
 from Vehiculo import *
-
-#class Vehiculo(Bicicleta):
-#    def __init__(self, Atributos, montaña):
-#        super().__init__(color, ruedas, tipoVehiculo)
-#        self
-        
+      
 class Bicicleta:
     gama = str
 
@@ -17,7 +12,7 @@ class  Bicicleta(Vehiculo):
         self.gama = gama
 
     def __str__(self):
-        return f" {super().__str__()}, [gama:{self.gama}]"
+        return f" {super().__str__()}, [color:{self.gama}]"
 
     
 vehiculo1 = Bicicleta("Bicicleta" ,"Todo terrreno" , 2, "azul", "Alta")
