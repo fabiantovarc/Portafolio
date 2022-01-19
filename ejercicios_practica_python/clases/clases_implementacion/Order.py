@@ -18,7 +18,7 @@ class Order:
             total += product.price
         return total 
 
-
+    
     def __str__(self):
         products_str = ""
         for product in self._products:

@@ -1,46 +1,32 @@
-class Raton:
+from DispositivosEntrada import DispositivosEntrada
+class Raton(DispositivosEntrada):
     contador_ratones = 0
     idRaton = int
-    nombreRaton = str
-    precioRaton = int
 
     @classmethod
-    def generar_contador(cls):
+    def generar_contadorR(cls):
         cls.contador_ratones +=1
         return cls.contador_ratones
 
-    def __init__(self, nombreRaton, precioRaton):
-        self.idRaton = Raton.generar_contador()
-        self._nombreRaton = nombreRaton
-        self._precioRaton = precioRaton
+    def __init__(self,tipoEntrada, marca, precio):
+        super(Raton, self).__init__(tipoEntrada, marca, precio)
+        self.idRaton = Raton.generar_contadorR()
+        self.tipoEntrada = tipoEntrada
+        self.marca       = marca
+        self.precio      = precio
 
-    @property
-    def nombreRaton(self):
-        return self._nombreRaton
-
-    @nombreRaton.setter
-    def nombreRaton(self, nombreRaton):
-        self._nombreRaton = nombreRaton
-
-    @property
-    def precioRaton(self):
-        return self._precioRaton
-
-    @precioRaton.setter
-    def precioRaton(self, precioRaton):
-        self._precioRaton = precioRaton
     
     def mostrar_detalles(self):
-        return f"Id Raton: {self.idRaton}, Nombre: {self._nombreRaton}, Precio: {self._precioRaton}, Contador: {Raton.contador_ratones}"
+        return f"Id Raton: {self.idRaton}, Marca: {self.marca}, Precio: {self.precio}, Tipo Entrada: {self.tipoEntrada}"
 
 
     def __str__(self):
-        return f"Id Raton: {self.idRaton}, Nombre: {self._nombreRaton}, Precio: {self._precioRaton}, Contador: {Raton.contador_ratones}"
+        return f"Id Raton: {self.idRaton}, Marca: {self.marca}, Precio: {self.precio}, Tipo Entrada: {self.tipoEntrada}"
 
     
 
 if __name__ == '__main__':
-    raton1 = Raton("Curvado", 15000)
+    raton1 = Raton("TIPO C","DELUX", 100000)
     print(raton1)
-    raton2 = Raton("GX", 1000)
+    raton2 = Raton("USB", "DELUX", 50000)
     print(raton2)
