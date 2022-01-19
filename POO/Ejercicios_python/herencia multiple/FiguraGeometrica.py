@@ -1,5 +1,4 @@
-
-class FiguraGeometrica:
+class FiguraGeometrica():
     alto = int
     ancho = int
 
@@ -39,9 +38,6 @@ class FiguraGeometrica:
              self._ancho = ancho # se puede agregar una funcion para mostrar los valores y terminos de una persona
         else:
             print(f"Valor erroneo {self._ancho}")
-
-    def mostrar_detalles(self):
-        print(f"Alto: {self._alto}, Ancho: {self._ancho}")
 
     def __del__(self):
         print(f"Alto: {self._alto}, Ancho: {self._ancho}")

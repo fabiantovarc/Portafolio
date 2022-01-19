@@ -1,11 +1,17 @@
 class Account:
-    id       = int
-    name     = str
-    document = str
-    email    = str
-    password = str
+    count_account  = 0
+    name           = str
+    document       = str
+    email          = str
+    password       = str
 
-    def __init__(self, name, document, email, password):        
+    @classmethod
+    def _generate_id_account(cls):
+        cls.generate_id_account +=1
+        return cls.generate_id_account
+
+    def __init__(self, name, document, email, password):  
+        self.id_account = Account.generate_id_account
         self._name      = name
         self._document  = document
         self._email     = email

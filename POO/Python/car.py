@@ -1,11 +1,17 @@
 class Car():
-    id        = int
-    license   = str
-    passegenger = int
+    count_car        = 0
+    license          = str
+    passegenger      = int
+    
+    @classmethod
+    def _generate_id_car(cls):
+        cls.generate_id_car +=1
+        return cls.generate_id_car
 
     def __init__(self, license, passegenger):
-        self._license   = license
-        self._passegenger = passegenger
+        self.id_car         = Car.generate_id_car
+        self._license       = license
+        self._passegenger   = passegenger
 
     @property
     def license(self):
