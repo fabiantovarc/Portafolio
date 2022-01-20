@@ -11,9 +11,22 @@ class Orden:
     def generar_contadorOrden(cls):
         cls.contadorOrden +=1
         return cls.contadorOrden
-
-    def __init__(self,computaras):
+    def __init__(self,computadoras):
         self.idOrden = Orden.generar_contadorOrden()
-        self._computadoras =list(computaras)
+        self._computadoras =list(computadoras)
+    
+    def agregar_computadora(self, computadora):
+        self._computadoras.append(computadora)
+
+    def __str__(self):
+        computadoras_str = ""
+        for computadora in self._computadoras:
+            computadoras_str += computadora.__str__()
+
+        return f"Orden: {self.idOrden} \n Computadoras: \n{computadoras_str}"
+
+
+
+
 
     

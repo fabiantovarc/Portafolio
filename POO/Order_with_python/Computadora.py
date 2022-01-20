@@ -16,21 +16,12 @@ class Computadora:
         cls.contadorComputadora +=1
         return cls.contadorComputadora
     
-    def __init__(self,nombre,monitores,ratones, teclados):
-        self.idComputadora =    Computadora.generar_contadorR()
+    def __init__(self,nombre,monitor,raton, teclado):
+        self.idComputadora =    Computadora.generar_contadorC()
         self._nombre       =    nombre
-        self._monitores    =    list(monitores)
-        self._ratones      =    list(ratones)      
-        self._teclados     =    list(teclados)
-
-    def add_monitores(self, monitores):
-        self._monitores.append(monitores)
-
-    def add_ratones(self, ratones):
-        self._ratones.append(ratones)
-
-    def add_teclados(self, teclados):
-        self._teclados.append(teclados)
+        self._monitor      =    monitor
+        self._raton        =    raton   
+        self._teclado      =    teclado
 
 
     @property
@@ -41,10 +32,17 @@ class Computadora:
         self._nombre = nombre
 
     def __str__(self):
-        return f"ID Computador: {self.idComputadora} | \n [Monitor: {Monitor.__str__()}] | \n [Raton: {Raton.__str__()}] | \n [Teclado: {Teclado.__str__()}] "
+        return f"""ID Computador: {self.idComputadora}, Nombre: {self._nombre}  \n [Monitor: {self._monitor}] | \n [Raton: {self._raton}] | \n [Teclado: {self._teclado}] \n \n """
 
 
 if __name__ == '__main__':
     pantalla1 = Monitor("samsung",30,6000, "HDMI")
     raton1 = Raton("Tipo C", "DELUX", 150000)
     teclado1 = Teclado("Tipo C", "Genius", 200000)
+    computador1 = Computadora("Gigabyte", pantalla1, raton1, teclado1)
+    print(computador1)
+    pantalla2 = Monitor("LG", 30 , 15000000, "HDMI")
+    raton2 = Raton("USB", "Logitect", 5000000)
+    teclado2 = Teclado("Tipo c", "Force", 500000)
+    computador2 = Computadora("Thermaltek", pantalla2, raton2, teclado2)
+    print(computador2)
