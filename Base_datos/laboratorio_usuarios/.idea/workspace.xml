@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7098c971-76f3-4d2a-9dfb-f8c01b8aba37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BD2_accesi_datos/Conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BD2_accesi_datos/Conexion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BD2_accesi_datos/PersonaDao.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BD2_accesi_datos/PersonaDao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BD2_accesi_datos/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BD2_accesi_datos/capa_datos.log" afterDir="false" />
-    </list>
+    <list default="true" id="7098c971-76f3-4d2a-9dfb-f8c01b8aba37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

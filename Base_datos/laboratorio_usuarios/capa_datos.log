@@ -1,0 +1,486 @@
+01:42:21 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+01:42:21 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002555CDEBEE0>
+01:42:21 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002555E9B48C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:42:21 PM: DEBUG [CursorDelPool.py:27] Dentro del bloque with
+01:42:21 PM: DEBUG [CursorDelPool.py:29] []
+01:42:21 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+01:42:21 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+01:42:21 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002555E9B48C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:23:21 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+03:23:21 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000289CFB3BEE0>
+03:23:21 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000289D16A88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:23:21 PM: DEBUG [CursorDelPool.py:27] Dentro del bloque with
+03:23:21 PM: DEBUG [CursorDelPool.py:29] [(21, 'Fabian', '45857', 'Fabian@gmail.com'), (22, 'Melisa', 'asd5', 'meli@gmail.com')]
+03:23:21 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+03:23:21 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+03:23:21 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000289D16A88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:34:48 PM: DEBUG [Usuario.py:50] 
+            ID Usuario: None, Nombre: Fabian,
+            Contraseña: 456, Email: fabian@gmail.com
+        
+03:59:04 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+03:59:04 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000018E38695BA0>
+03:59:04 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000018E386688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:04 PM: DEBUG [UsuarioDao.py:32] Usuario insertado: 
+            ID Usuario: None, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+03:59:04 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+03:59:04 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+03:59:04 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000018E386688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:04 PM: DEBUG [UsuarioDao.py:55] Usuarios insertados: 1
+03:59:04 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+03:59:04 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000018E386688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:04 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+03:59:04 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+03:59:04 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000018E386688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:04 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+03:59:04 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+03:59:04 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 23, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+03:59:37 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+03:59:37 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022F5CC95B40>
+03:59:37 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000022F5CC688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:37 PM: DEBUG [UsuarioDao.py:40] Usuario actualizado: 
+            ID Usuario: 23, Nombre: Carlos,
+            Contraseña: das4d65as, Email: denin@mail.com
+        
+03:59:37 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+03:59:37 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+03:59:37 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000022F5CC688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:37 PM: DEBUG [UsuarioDao.py:60] Usuarios actualizados: 1
+03:59:37 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+03:59:37 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000022F5CC688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:37 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+03:59:37 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+03:59:37 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000022F5CC688C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:59:37 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+03:59:37 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+03:59:37 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 23, Nombre: Carlos,
+            Contraseña: das4d65as, Email: denin@mail.com
+        
+04:00:12 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+04:00:12 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D37EF05B40>
+04:00:12 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002D37EED88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:12 PM: DEBUG [UsuarioDao.py:48] Objeto eliminado: 
+            ID Usuario: 23, Nombre: None,
+            Contraseña: None, Email: None
+        
+04:00:12 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+04:00:12 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+04:00:12 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002D37EED88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:12 PM: DEBUG [UsuarioDao.py:65] Usuarios eliminados: 1
+04:00:12 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+04:00:12 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002D37EED88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:12 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+04:00:12 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+04:00:12 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002D37EED88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:12 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:00:12 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:00:26 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+04:00:26 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000172F1C35BA0>
+04:00:26 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000172F1C088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:26 PM: DEBUG [UsuarioDao.py:32] Usuario insertado: 
+            ID Usuario: None, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:00:26 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+04:00:26 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+04:00:26 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000172F1C088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:26 PM: DEBUG [UsuarioDao.py:55] Usuarios insertados: 1
+04:00:26 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+04:00:26 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000172F1C088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:26 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+04:00:26 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+04:00:26 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000172F1C088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:00:26 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:00:26 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:00:26 PM: DEBUG [UsuarioDao.py:70] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:29:40 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:29:40 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:29:40 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:31:34 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:31:34 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:31:34 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:36:57 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:36:57 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:36:57 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:46:59 PM: INFO [MenuAppUsuario.py:28] Usuarios insertados 1
+04:55:28 PM: INFO [MenuAppUsuario.py:28] Usuarios insertados 1
+04:55:31 PM: INFO [MenuAppUsuario.py:48] Salimos de la aplicacion...
+04:55:55 PM: INFO [MenuAppUsuario.py:44] Usuarios eliminados 0
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 26, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 27, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 28, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 29, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 30, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 31, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 32, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 33, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 34, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 35, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 36, Nombre: Pablo,
+            Contraseña: 4654, Email: Pablo@gmail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 37, Nombre: Pablo,
+            Contraseña: 475sad4as, Email: Pablo@gmail.com
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 38, Nombre: Juan,
+            Contraseña: safas54, Email: juan@gmail.com
+        
+04:56:36 PM: INFO [MenuAppUsuario.py:28] Usuarios insertados 1
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 26, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 27, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 28, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 29, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 30, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 31, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 32, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 33, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 34, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 35, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 36, Nombre: Pablo,
+            Contraseña: 4654, Email: Pablo@gmail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 37, Nombre: Pablo,
+            Contraseña: 475sad4as, Email: Pablo@gmail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 38, Nombre: Juan,
+            Contraseña: safas54, Email: juan@gmail.com
+        
+04:56:37 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 39, Nombre: Fabio,
+            Contraseña: asdf5asf4, Email: favio@gmail.com
+        
+04:56:57 PM: INFO [MenuAppUsuario.py:44] Usuarios eliminados 1
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 26, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 27, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 28, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 29, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 30, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 31, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 32, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 33, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 34, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 35, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 37, Nombre: Pablo,
+            Contraseña: 475sad4as, Email: Pablo@gmail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 38, Nombre: Juan,
+            Contraseña: safas54, Email: juan@gmail.com
+        
+04:57:16 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 39, Nombre: Fabio,
+            Contraseña: asdf5asf4, Email: favio@gmail.com
+        
+04:57:29 PM: INFO [MenuAppUsuario.py:44] Usuarios eliminados 1
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 26, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 27, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 28, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 29, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 30, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 31, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 32, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 33, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 34, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 35, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 37, Nombre: Pablo,
+            Contraseña: 475sad4as, Email: Pablo@gmail.com
+        
+04:57:41 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 39, Nombre: Fabio,
+            Contraseña: asdf5asf4, Email: favio@gmail.com
+        
+04:57:46 PM: INFO [MenuAppUsuario.py:41] Usuarios eliminados 1
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 21, Nombre: Fabian,
+            Contraseña: 45857, Email: Fabian@gmail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 22, Nombre: Melisa,
+            Contraseña: asd5, Email: meli@gmail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 24, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 26, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 27, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 28, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 29, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 30, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 31, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 32, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 33, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 34, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 35, Nombre: Jorje,
+            Contraseña: 65424, Email: jorjena@mail.com
+        
+04:57:49 PM: INFO [MenuAppUsuario.py:21] 
+            ID Usuario: 39, Nombre: Fabio,
+            Contraseña: asdf5asf4, Email: favio@gmail.com
+        
+05:03:52 PM: INFO [MenuAppUsuario.py:29] Usuarios insertados 1
+05:04:27 PM: INFO [MenuAppUsuario.py:29] Usuarios insertados 1

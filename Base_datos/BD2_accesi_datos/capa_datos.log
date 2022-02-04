@@ -1111,3 +1111,39 @@
             Id Persona: 20, Nombre: Jorje,
             Apellido: Nata, Email: jorjena@mail.com
         
+01:37:03 PM: DEBUG [Persona.py:50] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+01:37:03 PM: DEBUG [Persona.py:53] 
+            Id Persona: None, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+01:37:03 PM: DEBUG [Persona.py:56] 
+            Id Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        
+01:37:10 PM: DEBUG [Persona.py:50] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+01:37:10 PM: DEBUG [Persona.py:53] 
+            Id Persona: None, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+01:37:10 PM: DEBUG [Persona.py:56] 
+            Id Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        
+03:23:16 PM: DEBUG [Persona.py:50] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+03:23:16 PM: DEBUG [Persona.py:53] 
+            Id Persona: None, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+03:23:16 PM: DEBUG [Persona.py:56] 
+            Id Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        
