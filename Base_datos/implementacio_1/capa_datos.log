@@ -1,0 +1,231 @@
+12:29:41 PM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+12:29:41 PM: INFO [logger_base.py:13] Mensaje a nivel info
+12:29:41 PM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+12:29:41 PM: ERROR [logger_base.py:15] Mensaje a nivel de error
+12:29:41 PM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+12:29:46 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+12:29:46 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002B9E7EFBEE0>
+12:29:46 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B9E9ABC9D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:29:46 PM: DEBUG [CursorDelPool.py:27] Dentro del bloque with
+12:29:46 PM: DEBUG [CursorDelPool.py:29] []
+12:29:46 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+12:29:46 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+12:29:46 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B9E9ABC9D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:29:57 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002717D011150>
+12:29:57 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002717D0209D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:29:57 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002717D020370; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:29:58 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002717D020150; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:29:58 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002717D020D00; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:30:10 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D38FD90FD0>
+12:30:10 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002D38FDA09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+12:30:15 PM: DEBUG [Books.py:60] 
+        id_books: 1
+        Name: The Lord of the Rings, Price: $19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+01:12:19 PM: DEBUG [Book.py:60] 
+        id_books: 1
+        Name: The Lord of the Rings, Price: $19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+01:12:22 PM: DEBUG [Book.py:60] 
+        id_books: 1
+        Name: The Lord of the Rings, Price: $19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+01:12:31 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+01:12:32 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002248EE07970>
+01:12:32 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002248EE009D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+01:12:32 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+01:12:32 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x000002248D3A3F00>
+01:12:32 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002248EE009D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:01:40 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:01:40 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002B1FBD85D20>
+06:01:40 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B1FBD509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:01:40 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:01:40 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x000002B1F9DDE900>
+06:01:40 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B1FBD509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:02:14 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:02:14 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022BF8185D20>
+06:02:14 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000022BF81509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:02:14 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:02:14 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x0000022BF66BD2C0>
+06:02:14 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000022BF81509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:02:32 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:02:32 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001EE93585D20>
+06:02:32 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001EE935509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:02:32 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:02:32 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x000001EE91ABD2C0>
+06:02:32 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001EE935509D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:06:52 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022870410FD0>
+06:06:52 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000228704209D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:07:16 PM: DEBUG [Book.py:60] 
+        id_books: 1
+        Name: The Lord of the Rings, Price: $19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+06:07:26 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:07:26 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000029DD3915D20>
+06:07:26 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000029DD38E09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:07:26 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:07:26 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x0000029DD1E4D2C0>
+06:07:26 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000029DD38E09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:10:13 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:10:13 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001EA7C075DB0>
+06:10:13 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001EA7C0409D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:10:13 PM: DEBUG [BooksDao.py:30] Insert book: 
+        id_books: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+06:10:13 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:10:13 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: 'Book' object has no attribute 'genre' <class 'AttributeError'> <traceback object at 0x000001EA7C07FC00>
+06:10:13 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001EA7C0409D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:10:20 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:10:20 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E1BE025DB0>
+06:10:20 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001E1BDFF09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:10:20 PM: DEBUG [BooksDao.py:30] Insert book: 
+        id_books: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+06:10:20 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:10:20 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: null value in column "id_books" of relation "book" violates not-null constraint
+DETAIL:  Failing row contains (null, The Lord of the Rings, Fantasy, 1954, $19.99, 4.5).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x000001E1BE02FB80>
+06:10:20 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001E1BDFF09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:13:18 PM: DEBUG [Book.py:60] 
+        id_books: 1
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+06:14:11 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:14:11 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000015F4FDE8610>
+06:14:11 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000015F4FD809D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:14:11 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+        
+06:14:11 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:14:11 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: null value in column "id_books" of relation "book" violates not-null constraint
+DETAIL:  Failing row contains (null, The Lord of the Rings, Fantasy, 1954, $19.99, 4.5).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x0000015F4FDDEE80>
+06:14:11 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000015F4FD809D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:14:48 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:14:48 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002C2C3C75DB0>
+06:14:48 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002C2C3C409D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:14:48 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: 4
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+        
+06:14:49 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:14:49 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: null value in column "id_books" of relation "book" violates not-null constraint
+DETAIL:  Failing row contains (null, The Lord of the Rings, Fantasy, 1954, $19.99, 4.5).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x000002C2C3C7FCC0>
+06:14:49 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002C2C3C409D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:15:07 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:15:08 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000014748D51DE0>
+06:15:08 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000014748D209D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:15:08 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: 4
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+        
+06:15:08 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:15:08 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: null value in column "id_books" of relation "book" violates not-null constraint
+DETAIL:  Failing row contains (null, The Lord of the Rings, Fantasy, 1954, $19.99, 4.5).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x0000014748D5FCC0>
+06:15:08 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000014748D209D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:16:23 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:16:23 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000016A54D45DB0>
+06:16:23 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000016A54D109D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:16:23 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+        
+06:16:23 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:16:23 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: null value in column "id_books" of relation "book" violates not-null constraint
+DETAIL:  Failing row contains (null, The Lord of the Rings, Fantasy, 1954, $19.99, 4.5).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x0000016A532EC500>
+06:16:23 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000016A54D109D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:22:24 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:22:24 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000243F03CBEE0>
+06:22:24 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000243F1F709D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:22:24 PM: DEBUG [CursorDelPool.py:27] Dentro del bloque with
+06:22:24 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:22:24 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: relation "books" does not exist
+LINE 1: SELECT * FROM books
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x00000243F1FAEDC0>
+06:22:24 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000243F1F709D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:22:32 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+06:22:32 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002589202BEE0>
+06:22:32 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000025893B909D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+06:22:32 PM: DEBUG [CursorDelPool.py:27] Dentro del bloque with
+06:22:32 PM: DEBUG [CursorDelPool.py:29] [(1, 'Prince of persia', 'Fantasy', 1950, '$58.60', None), (2, 'Calamator', 'Fantasy', 1940, '$99.99', Decimal('58')), (3, 'Morat', 'No Fantasy', 1800, '$99.99', Decimal('70.5'))]
+06:22:32 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+06:22:32 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+06:22:32 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000025893B909D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:35:37 PM: DEBUG [Book.py:80] 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Genre: Fantasy, User raiting: 4.5, Year: 1954
+        
+07:36:23 PM: DEBUG [Book.py:82] 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+
+        
+07:36:34 PM: DEBUG [Book.py:81] 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+        
+07:36:55 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+07:36:55 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000013550527FD0>
+07:36:55 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000135504F09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:36:55 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+        
+07:36:55 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+07:36:55 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: relation "book" does not exist
+LINE 1: INSERT INTO book(name, price, genre, user_rating, year) VALU...
+                    ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x000001355054F480>
+07:36:55 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000135504F09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:37:55 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+07:37:55 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021F74601F00>
+07:37:55 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000021F745D09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:37:55 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+        
+07:37:55 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+07:37:55 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hace rollback: relation "book" does not exist
+LINE 1: INSERT INTO book(name, price, genre, user_rating, year, auth...
+                    ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000021F7461C300>
+07:37:55 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000021F745D09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:39:31 PM: DEBUG [CursorDelPool.py:9] Incio del método with __enter__
+07:39:31 PM: DEBUG [Conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F3EE5E1F00>
+07:39:31 PM: DEBUG [Conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001F3EE5B09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:39:31 PM: DEBUG [BooksDao.py:30] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+        
+07:39:31 PM: DEBUG [BooksDao.py:33] Insert book: 
+        ID Book: None
+        Name: The Lord of the Rings, Price: 19.99, 
+        Author: J.R.R. Tolkien, Genre: Fantasy, 
+        User raiting: 4.5, Year: 1954
+        
+07:39:31 PM: DEBUG [CursorDelPool.py:15] Se ejecuta método __exit__
+07:39:31 PM: DEBUG [CursorDelPool.py:21] Commit de la transacción
+07:39:31 PM: DEBUG [Conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001F3EE5B09D0; dsn: 'user=postgres password=xxx dbname=implementacion1 host=127.0.0.1 port=5432', closed: 0>
+07:39:31 PM: DEBUG [BooksDao.py:56] inserted book: 1

@@ -3,9 +3,9 @@ from psycopg2 import pool
 import sys
 
 class Conexion:
-    _DATABASE = 'test_db'
+    _DATABASE = 'implementacion1'
     _USERNAME = 'postgres'
-    _PASSWORD = '5893'
+    _PASSWORD = 'admin'
     _DB_PORT = '5432'
     _HOST = '127.0.0.1'
     _MIN_CON = 1
@@ -47,7 +47,12 @@ class Conexion:
 
 
 if __name__ == '__main__':
+    #Conexion.obtenerConexion()
+    #Conexion.obtenerCursor()
     conexion1 = Conexion.obtenerConexion()
+
+
+
 
 
 

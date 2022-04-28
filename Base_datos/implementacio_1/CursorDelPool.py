@@ -25,6 +25,5 @@ class CursorDelPool:
 if __name__ == '__main__':
     with CursorDelPool() as cursor:
         log.debug('Dentro del bloque with')
-        #cursor.execute(INSERT INTO books (name, price, genre, user_rating, year) VALUES ('10-Day Green Smoothie Cleanse', '8', 'Non Fiction', '4.7', '2016'))
-        cursor.execute('SELECT * FROM books')
+        cursor.execute('SELECT * FROM book')
         log.debug(cursor.fetchall())
